@@ -8,5 +8,6 @@ class Test(unittest.TestCase):
         self.assertIsNone(driver) #драйвер пустой?
         self.assertIsNotNone(driver) #драйвер не пустой?
 
+
 if __name__ == "__name__":
     unittest.main
