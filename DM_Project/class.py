@@ -1,4 +1,4 @@
-class my_class:
+class MyClass:
     name = None
     age = None
     isHappy = None

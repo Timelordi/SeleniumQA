@@ -14,8 +14,10 @@ alerts = driver.find_element(By.XPATH,"//*[@id='header']/nav/div/div[2]/ul/li[4]
 
 #решено двойным кликом просто выделять кусочек текста
 text_field = driver.find_element(By.XPATH, "//*[@id='Tabbed']/p")
+
 #прикрепляем к ActionChain наш драйвер
 actions = ActionChains(driver)
+
 #выполняем двойнок клик на элементе который нашли
 actions.double_click(text_field).perform()
 time.sleep(3)

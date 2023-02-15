@@ -29,7 +29,7 @@ submit = driver.find_element(By.XPATH, "/html/body/div[2]/main/div[1]/div/div/di
 
 #Explicit waits
 wait = WebDriverWait(driver,10)
-element=wait.untill(EC.element_to_be_clickablelickable(By.XPATH, "Expected conditions"))
+element=wait.until(EC.element_to_be_clickable(By.XPATH, "Expected conditions"))
 element.click()
 time.sleep(3)
 

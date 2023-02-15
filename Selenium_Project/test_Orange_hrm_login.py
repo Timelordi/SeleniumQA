@@ -1,6 +1,5 @@
 import unittest
 from selenium import webdriver
-import HtmlTestRunner
 from selenium.webdriver.common.by import By
 import time
 
@@ -33,4 +32,4 @@ class OrangeHRM_test(unittest.TestCase):
 if __name__ == "__name__":
     unittest.main()
 
-    ##TO run the test with HTML report: $pytest -v -s --html=report.html test_Orange_hrm_login.py
+    ##To run the test with HTML report: $pytest -v -s --html=report.html test_Orange_hrm_login.py

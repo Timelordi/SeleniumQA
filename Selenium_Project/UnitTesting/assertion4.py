@@ -1,6 +1,5 @@
 #assertIN and assertNotIN
 import unittest
-from selenium import  webdriver
 
 class Test(unittest.TestCase):
     def testName(self):
